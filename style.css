@@ -1,0 +1,74 @@
+/*CSS resets */
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  margin-top: .8rem;
+}
+
+header {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 10vw;
+  background-color: teal;
+}
+
+header img {
+  width: 6rem;
+  height: auto;
+}
+
+header a{
+  text-decoration: none;
+  padding-left: 1rem;
+  color: white;
+}
+
+main {
+  margin: 5rem 10vw;
+}
+
+main img {
+  width: 50vw;
+  max-width: 400px;
+  margin-top: 1.6rem;
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: .5rem;
+}
+
+footer {
+  text-align: right;
+  font-style: italic;
+  font-size: .75rem;
+  padding: 1rem;
+}
+
